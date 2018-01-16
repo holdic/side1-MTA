@@ -1,0 +1,8 @@
+<meta>
+	<info author="nick" type="beginning" name="[HUN] rDelta Group" description="" />
+	
+	<script src="server_base.lua" type="server" />
+	<export function="" type="server" />
+	<export function="" type="server" />
+	
+</meta>
