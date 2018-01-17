@@ -1,0 +1,14 @@
+--(generatePedsXML) <- generatePedsExt
+local workWith = importResourcePuzzles({"ped_mod:generatePeds", "ped_mode:InetPed", "general:....scoreboard"})
+
+local initRes = {
+
+["loader"] = function()
+local ped_storage = workWith.ped_mod:generatePeds()
+scoreBoard() --show on approciate users
+
+
+end,
+[""]
+
+}
